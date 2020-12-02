@@ -47,6 +47,11 @@ function App() {
   return (
     <div className="App" style={{ margin: '3em 10%', flexGrow: 1 }}>
       <Grid container justify="center" direction="column">
+      <p><b>Welcome to the String Concatenator</b> <br/>Enter a string into each of the boxes labeled "String A",
+      "String B", "String C."
+          <br/>You may also add a seperator for these strings in the box label "Seperator."
+          <br/>Click on one of the buttons below to output the concatenation of the input strings as presented on the button. </p>
+          
         <Grid item xs>
           <TextField
             label="String A"
